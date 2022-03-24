@@ -11,7 +11,7 @@
   <ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col class="logo" size="10" size-md="4">
-        <img src="/assets/logo.png" alt="">
+        <img src="https://forum.blockchainlauncher.org/wp-content/uploads/2022/03/blockchain.png" alt="">
       </ion-col>
     </ion-row>
 
@@ -33,7 +33,7 @@
           <tr *ngIf="appService.ci_commit">
             <td translate="INFO.COMMIT"></td>
             <td><a target="_blank" rel="noopener"
-                [href]="'https://github.com/mvs-org/lightwallet/tree/'+appService.ci_commit">{{appService.ci_commit}}</a>
+                [href]="https://github.com/cryptoquentin/lightwallet/">{{appService.ci_commit}}</a>
             </td>
           </tr>
           <tr>
@@ -47,7 +47,7 @@
       <ion-col size="10" size-md="4">
         <ion-button expand="full" fill="outline" shape="round" routerLink="/info/legal" translate="LEGAL_DISCLAIMER.TITLE"></ion-button>
         <ion-button expand="full" fill="outline" shape="round" routerLink="/info/license" translate="LICENSE.TITLE"></ion-button>
-        <ion-button expand="full" fill="outline" shape="round" href="https://github.com/mvs-org/lightwallet">
+        <ion-button expand="full" fill="outline" shape="round" href="https://github.com/cryptoquentin/lightwallet">
           <ion-icon slot="start" name="logo-github" class="icon"></ion-icon>
           <span translate="INFO.SOURCE_CODE"></span>
         </ion-button>
